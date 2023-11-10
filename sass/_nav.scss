@@ -1,4 +1,17 @@
+$orange:#f06625;
+$yellow:#f7f002;
+$darkYellow: #f5b91d;
+$red: #950a11;
+$brown: #310600;
+
 nav {
+  background-color: orange;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  z-index: 1;
   ul {
     display: flex;
     flex-wrap: wrap;
