@@ -23,15 +23,18 @@ nav {
     a {
       float: left;
       display: block;
-      color: $orange;
+      color: $brown;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 17px;
-
+      font-size: $font-size-text;
+      font-family: 'Sarabun', sans-serif;
+      border-radius: 50%;
+      margin: 10px;
+      transition: 0.5s;
       &:hover {
-        background-color: $yellow;
-        color: black;
+        background: linear-gradient(45deg, #f06625, #950a11, #310600);
+        color: white;
       }
 
       &.active {
@@ -39,6 +42,8 @@ nav {
         color: white;
       }
     }
+  }
+}
 
 // nav {
 //   ul {
@@ -74,4 +79,5 @@ nav {
 //       margin: 0.25rem;
 //     }
 //   }
+// }
 // }

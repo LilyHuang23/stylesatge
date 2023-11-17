@@ -21,3 +21,28 @@
 //     max-width: 30ch;
 //   }
 // }
+header {
+    margin: 100px auto auto auto;
+    width: 100%;
+    max-width: 100ch;
+    .container {
+        background-color: rgba(255, 255, 255, 0.2);
+        margin-bottom: 5%;
+        padding: 50px;
+        border-radius: 50px;
+        h1 {
+            font-size: $font-size-h1;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background: -webkit-linear-gradient(45deg, #f06625, #950a11, #310600);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            font-size: $font-size-h2;
+        }
+        p {
+            font-size: $font-size-text;
+        }
+    }
+}

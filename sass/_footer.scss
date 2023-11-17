@@ -42,3 +42,29 @@
 //     margin-bottom: 0;
 //   }
 // }
+.page-footer {
+    width: 100%;
+    background-color: $orange;
+    // background: linear-gradient(to top, #f06625 60%, transparent);
+    // padding: 100px 0 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    p {
+        font-size: $font-size-text;
+    }
+    p:nth-child(1) {
+        font-weight: 800;
+    }
+    li {
+        display: inline-block;
+        margin: 5px;
+        a {
+            text-decoration: none;
+            background: linear-gradient(45deg, #f06625, #950a11, #310600);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            color: white;
+        }
+    }
+}
