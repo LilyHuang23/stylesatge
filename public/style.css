@@ -336,11 +336,23 @@ header {
   width: 100%;
   max-width: 100ch;
 }
+@media screen and (max-width: 768px) {
+  header {
+    max-width: 40ch;
+  }
+}
 header .container {
   background-color: rgba(255, 255, 255, 0.2);
   margin-bottom: 5%;
   padding: 50px;
   border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  header .container {
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 25px;
+  }
 }
 header .container h1 {
   font-size: 6rem;
@@ -350,8 +362,18 @@ header .container h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media screen and (max-width: 768px) {
+  header .container h1 {
+    font-size: 4rem;
+  }
+}
 header .container h2 {
   font-size: 3rem;
+}
+@media screen and (max-width: 768px) {
+  header .container h2 {
+    font-size: 2rem;
+  }
 }
 header .container p {
   font-size: 1.15rem;
@@ -403,6 +425,13 @@ nav ul a.active {
   padding: 50px;
   border-radius: 50px;
 }
+@media screen and (max-width: 768px) {
+  #about .container {
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 25px;
+  }
+}
 #about .container h2 {
   font-size: 3rem;
 }
@@ -411,6 +440,13 @@ nav ul a.active {
   color: white;
   padding: 20px 40px;
   border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  #about .container blockquote {
+    margin: 10px;
+    border-radius: 25px;
+    padding: 8px 25px;
+  }
 }
 #about .container blockquote p {
   font-size: 1.3rem;
@@ -427,6 +463,14 @@ nav ul a.active {
   padding: 50px;
   border-radius: 50px;
 }
+@media screen and (max-width: 768px) {
+  #about .container ul {
+    display: block;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px 25px 10px 0px;
+  }
+}
 #about .container ul li {
   list-style: circle inside;
   padding-left: 50px;
@@ -442,6 +486,13 @@ nav ul a.active {
   margin-bottom: 5%;
   padding: 50px;
   border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  #guidelines .container {
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 25px;
+  }
 }
 #guidelines .container h2 {
   font-size: 3rem;
@@ -475,6 +526,13 @@ nav ul a.active {
   margin-bottom: 5%;
   padding: 50px;
   border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  #contribute .container {
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 25px;
+  }
 }
 #contribute .container h2 {
   font-size: 3rem;
@@ -512,6 +570,13 @@ nav ul a.active {
   margin-bottom: 5%;
   padding: 50px;
   border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  #styles .container {
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 25px;
+  }
 }
 #styles .container h2 {
   font-size: 3rem;
@@ -556,12 +621,24 @@ nav ul a.active {
   width: 100%;
   max-width: 100ch;
 }
+@media screen and (max-width: 768px) {
+  .profile {
+    max-width: 40ch;
+  }
+}
 .profile .container {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
   margin-bottom: 5%;
   padding: 50px;
   border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  .profile .container {
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 25px;
+  }
 }
 .profile .container h4 {
   font-size: 2rem;
@@ -592,7 +669,7 @@ nav ul a.active {
 .page-footer {
   width: 100%;
   background-color: #f06625;
-  padding: 10px 0;
+  padding: 10px;
   text-align: center;
 }
 .page-footer p {

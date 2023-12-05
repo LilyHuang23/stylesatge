@@ -25,11 +25,19 @@ header {
     margin: 100px auto auto auto;
     width: 100%;
     max-width: 100ch;
+    @media screen and (max-width: 768px) {
+        max-width: 40ch;
+    }
     .container {
         background-color: rgba(255, 255, 255, 0.2);
         margin-bottom: 5%;
         padding: 50px;
         border-radius: 50px;
+        @media screen and (max-width: 768px) {
+            margin-top: 10%;
+            padding: 20px;
+            border-radius: 25px;
+        }
         h1 {
             font-size: $font-size-h1;
             -webkit-background-clip: text;
@@ -37,12 +45,19 @@ header {
             background: -webkit-linear-gradient(45deg, #f06625, #950a11, #310600);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            @media screen and (max-width: 768px) {
+                font-size: 4rem;
+            }
         }
         h2 {
             font-size: $font-size-h2;
+            @media screen and (max-width: 768px) {
+                font-size: 2rem;
+            }
         }
         p {
             font-size: $font-size-text;
         }
     }
 }
+
